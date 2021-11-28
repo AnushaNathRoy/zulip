@@ -1286,6 +1286,12 @@ td.pointer {
     }
 }
 
+.emoji_message_feed {
+    height: 16px;
+    width: 16px;
+    top: 0;
+}
+
 .sender_name {
     display: inline-block;
     font-weight: 700;

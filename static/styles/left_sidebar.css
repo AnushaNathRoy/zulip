@@ -312,6 +312,17 @@ li.top_left_recent_topics {
     line-height: 1.25;
 }
 
+.status_emoji {
+    height: 16px;
+    width: 16px;
+    /* We are setting minimum width here because when the user's name is very long,
+    emoji's width decreases and causes it to break. */
+    min-width: 16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    top: 1px;
+}
+
 .top_left_all_messages i.fa-align-left {
     position: relative;
     font-size: 15px;
